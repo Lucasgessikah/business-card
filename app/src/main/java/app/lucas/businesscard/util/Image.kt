@@ -84,7 +84,7 @@ class Image {
             val shareIntent: Intent = Intent().apply {
                 action = Intent.ACTION_SEND
                 putExtra(Intent.EXTRA_STREAM, imageUri)
-                type = "image/jpg"
+                type = "image/jpeg"
             }
 
             context.startActivity(
